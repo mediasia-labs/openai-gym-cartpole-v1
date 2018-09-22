@@ -17,7 +17,7 @@ class CatrPoleSolver:
 		self.objective = 200
 
 		# Load CartPole
-		self.env = gym.make('CartPole-v0')
+		self.env = gym.make('CartPole-v1')
 		
 		 # learning rate
 		self.learningRate = 0.1
@@ -64,6 +64,7 @@ class CatrPoleSolver:
 			step = 0
 
 			while not done:
+				# Render game
 				# self.env.render()
 
 				# Choose action
@@ -74,6 +75,7 @@ class CatrPoleSolver:
 				# learn
 				self.QTable[current_state][action] += self.decay_rate(step, self.learningRate) * (reward + 1 * np.max(self.QTable[new_state]) - self.QTable[current_state][action])
 
+				# Update state
 				current_state = new_state
 				score += 1
 				step += 1
