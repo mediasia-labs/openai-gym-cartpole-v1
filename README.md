@@ -2,7 +2,7 @@
 
 Solve CartPole-v1 challenge with Q-learning table
 
-!(https://raw.githubusercontent.com/mediasia-labs/openai-gym-cartpole-v1/master/screenshot.png)
+![CartPole-v1 Challenge](https://raw.githubusercontent.com/mediasia-labs/openai-gym-cartpole-v1/master/screenshot.png)
 
 ### Install
 
