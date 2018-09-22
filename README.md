@@ -1,2 +1,3 @@
-# openai-gym-cartpole-v1
-Openai Gym - Solving CartPole-v1
+# Solving OpenAI Gym - CartPole-V1
+
+
