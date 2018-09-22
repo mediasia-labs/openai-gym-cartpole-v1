@@ -1,6 +1,6 @@
-# Solving OpenAI Gym - CartPole-V1
+# Solving OpenAI Gym - CartPole-v1
 
-Solve CartPole-v1 challenge with Q-learning table
+Solve CartPole-v1 challenge with Q-learning table.
 
 ### Install
 
