@@ -6,17 +6,17 @@ Solve CartPole-v1 challenge with Q-learning table
 
 This project uses numpy and gym. Install depedencies with `pip`
 
-	pip install -r requirements.txt
+	$ pip install -r requirements.txt
 
 ### Run
 
 Run
 
-	python train.py
+	$ python train.py
 
 Result
 
-	python train.py
+	$ python train.py
 	----
 	Solved in 1763 steps
 	----
